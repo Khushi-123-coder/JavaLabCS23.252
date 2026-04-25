@@ -1,6 +1,5 @@
 # JavaLabCS23.252
-Program1:Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main.
-[Go to Program 1](#program1)
+[#Program1:Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main.]
 Write a Program to test for loop, while loop, do while loop for Problem 1 (#program2)
 Write a Program using if-else to print the grade of input marks.(#program3)
 Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.(#program4)
@@ -158,3 +157,182 @@ class SquareStars {
 }
 Output:
 <img width="312" height="383" alt="image" src="https://github.com/user-attachments/assets/2ee8716b-d93b-470a-a093-e94ae60e6249" />
+#program5
+import java.util.Scanner;
+
+class PyramidStars {
+
+    int n;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of rows: ");
+        n = sc.nextInt();
+    }
+
+    void printPyramid() {
+        for (int i = 1; i <= n; i++) {
+
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        PyramidStars obj = new PyramidStars();
+        obj.input();
+        obj.printPyramid();
+    }
+}
+Output:
+<img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/439ef5b6-c6ec-4dc8-adba-c3816e983bcd" />
+#program6
+import java.util.Scanner;
+
+class Distance {
+    int meters;
+    int centimeters;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter meters: ");
+        meters = sc.nextInt();
+        System.out.print("Enter centimeters: ");
+        centimeters = sc.nextInt();
+    }
+
+    Distance add(Distance d) {
+        Distance sum = new Distance();
+        sum.centimeters = this.centimeters + d.centimeters;
+        sum.meters = this.meters + d.meters + sum.centimeters / 100;
+        sum.centimeters = sum.centimeters % 100;  
+        return sum;
+    }
+
+    void display() {
+        System.out.println("Distance = " + meters + " meters and " + centimeters + " centimeters");
+    }
+
+    public static void main(String[] args) {
+        Distance d1 = new Distance();
+        Distance d2 = new Distance();
+
+        System.out.println("Enter first distance:");
+        d1.input();
+
+        System.out.println("Enter second distance:");
+        d2.input();
+
+        Distance sum = d1.add(d2);
+
+        System.out.print("Sum of distances: ");
+        sum.display();
+    }
+}
+Output:
+<img width="519" height="253" alt="image" src="https://github.com/user-attachments/assets/b68792f5-86b8-4c5f-9c79-e6306a7d5640" />
+#program7
+import java.util.Scanner;
+
+class Distance {
+    int meters;
+    int centimeters;
+    int millimeters;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter meters: ");
+        meters = sc.nextInt();
+        System.out.print("Enter centimeters: ");
+        centimeters = sc.nextInt();
+        System.out.print("Enter millimeters: ");
+        millimeters = sc.nextInt();
+    }
+
+    Distance add(Distance d) {
+        Distance sum = new Distance();
+
+        sum.millimeters = this.millimeters + d.millimeters;
+        sum.centimeters = this.centimeters + d.centimeters + sum.millimeters / 10; // 10 mm = 1 cm
+        sum.millimeters = sum.millimeters % 10;
+
+        sum.meters = this.meters + d.meters + sum.centimeters / 100; // 100 cm = 1 m
+        sum.centimeters = sum.centimeters % 100;
+
+        return sum;
+    }
+
+    void display() {
+        System.out.println("Distance = " + meters + " meters, " + centimeters + " centimeters, and " + millimeters + " millimeters");
+    }
+
+    public static void main(String[] args) {
+        Distance d1 = new Distance();
+        Distance d2 = new Distance();
+
+        System.out.println("Enter first distance:");
+        d1.input();
+
+        System.out.println("Enter second distance:");
+        d2.input();
+
+        Distance sum = d1.add(d2);
+
+        System.out.print("Sum of distances: ");
+        sum.display();
+    }
+}
+Output:
+<img width="526" height="325" alt="image" src="https://github.com/user-attachments/assets/321ebb9e-16bf-4266-9667-c057ad88a3e6" />
+#program8
+import java.util.Scanner;
+
+class Time {
+    int hours;
+    int minutes;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter hours: ");
+        hours = sc.nextInt();
+        System.out.print("Enter minutes: ");
+        minutes = sc.nextInt();
+    }
+
+    Time add(Time t) {
+        Time sum = new Time();
+        sum.minutes = this.minutes + t.minutes;
+        sum.hours = this.hours + t.hours + sum.minutes / 60; // 60 min = 1 hr
+        sum.minutes = sum.minutes % 60;
+        return sum;
+    }
+
+    void display() {
+        System.out.println("Time = " + hours + " hours and " + minutes + " minutes");
+    }
+
+    public static void main(String[] args) {
+        Time t1 = new Time();
+        Time t2 = new Time();
+
+        System.out.println("Enter first time:");
+        t1.input();
+
+        System.out.println("Enter second time:");
+        t2.input();
+
+        Time sum = t1.add(t2);
+
+        System.out.print("Sum of times: ");
+        sum.display();
+    }
+}
+Output:
+<img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/79c51daf-0305-477f-a32d-3588c765c646" />
