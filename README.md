@@ -1,39 +1,69 @@
 # JavaLabCS23.252
 ## Programs List
 
-[Program 1: Calculator Methods](#program1)
-[Program 2: Loops Test](#program2)
+[Program 1: Calculator Methods](#program1)  
+
+[Program 2: Loops Test](#program2)  
+
 [Program 3: Grade using If-Else](#program3)
+
 [Program 4: Square of Stars](#program4)
+
 [Program 5: Pyramid of Stars](#program5)
+
 [Program 6: Distance (m, cm)](#program6)
+
 [Program 7: Distance (m, cm, mm)](#program7)
+
 [Program 8: Time (hours, minutes)](#program8)
+
 [Program 9: Time (h, m, s)](#program9)
+
 [Program 10: 1D Array Methods](#program10)
+
 [Program 11: Matrix Operations](#program11)
+
 [Program 12a: Factorial](#program12a)
+
 [Program 12b: Armstrong](#program12b)
+
 [Program 12c: Palindrome](#program12c)
+
 [Program 12d: Fibonacci](#program12d)
+
 [Program 12e: Pattern](#program12e)
+
 [Program 13: Without Thread](#program13)
+
 [Program 14: With Thread](#program14)
+
 [Program 15: Thread Synchronization](#program15)
+
 [Program 16: Swing Addition](#program16)
+
 [Program 17: Swing Calculator](#program17)
+
 [Program 18: Matrix Addition Swing](#program18)
+
 [Program 19: JFrame Shapes](#program19)
+
 [Program 20: Paint Brush (Mouse Events)](#program20)
+
 [Program 21: Package (5 Classes)](#program21)
+
 [Program 22: Package + Subpackage](#program22)
+
 [Program 23: Exception Handling](#program23)
+
 [Program 24: User-defined Exception](#program24)
+
 [Program 25: File Handling](#program25)
+
 [Program 26: Inheritance + Interface](#program26)
+
 [Program 27: Registration Form (JDBC)](#program27)
 
-[#Program1:Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main.]
+##program1(#program1)
 public class Calculator {
 
     // Method for Addition
