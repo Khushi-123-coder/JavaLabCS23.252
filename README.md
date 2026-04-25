@@ -30,7 +30,7 @@ Program 24: To test the range of age of one student, write a program using a use
 Program 25: File Handling Programs (given in the PPT).(#program25)
 Program 26: Inheritance Programs, using interface and abstract classes.(#program26)
 Program 27: Make a registration form with 10 elements and send the data to the database (use JDBC connectivity).(#program27)
-#program1
+[#Program1:Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main.]
 public class Calculator {
 
     // Method for Addition
