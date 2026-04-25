@@ -66,7 +66,6 @@
 ##program1(#program1)
 
 public class Calculator {
-
     // Method for Addition
     public int add(int a, int b) {
         return a + b;
@@ -136,7 +135,6 @@ Output:
 #program3
 
 import java.util.Scanner;
-
 class GradeCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -164,7 +162,6 @@ Output:
 #program4
 
 import java.util.Scanner;
-
 class SquareStars {
 
     int width, height;
@@ -197,7 +194,6 @@ Output:
 #program5
 
 import java.util.Scanner;
-
 class PyramidStars {
 
     int n;
@@ -234,7 +230,6 @@ Output:
 #program6
 
 import java.util.Scanner;
-
 class Distance {
     int meters;
     int centimeters;
