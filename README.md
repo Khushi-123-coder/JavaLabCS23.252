@@ -109,7 +109,7 @@ public class Calculator {
 Output:
 <img width="508" height="107" alt="image" src="https://github.com/user-attachments/assets/fb34402d-23e5-4895-a2a6-82cef31a4730" />
 #program2
-
+```java
 class LoopTest {
     public static void main(String[] args) {
 
@@ -133,10 +133,11 @@ class LoopTest {
         } while (k <= 5);
     }
 }
+```
 Output:
 <img width="375" height="561" alt="image" src="https://github.com/user-attachments/assets/379fc8a3-9c8b-47b4-8f0b-9dbbc283edfa" />
 #program3
-
+```java
 import java.util.Scanner;
 class GradeCheck {
     public static void main(String[] args) {
@@ -160,10 +161,11 @@ class GradeCheck {
         sc.close();
     }
 }
+```
 Output:
 <img width="317" height="171" alt="image" src="https://github.com/user-attachments/assets/8f74cb97-252a-44c4-85bb-c548d1b7e678" />
 #program4
-
+```java
 import java.util.Scanner;
 class SquareStars {
 
@@ -192,10 +194,11 @@ class SquareStars {
         obj.printSquare();
     }
 }
+```
 Output:
 <img width="312" height="383" alt="image" src="https://github.com/user-attachments/assets/2ee8716b-d93b-470a-a093-e94ae60e6249" />
 #program5
-
+```java
 import java.util.Scanner;
 class PyramidStars {
 
@@ -228,10 +231,11 @@ class PyramidStars {
         obj.printPyramid();
     }
 }
+```
 Output:
 <img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/439ef5b6-c6ec-4dc8-adba-c3816e983bcd" />
 #program6
-
+```java
 import java.util.Scanner;
 class Distance {
     int meters;
@@ -273,10 +277,11 @@ class Distance {
         sum.display();
     }
 }
+```
 Output:
 <img width="519" height="253" alt="image" src="https://github.com/user-attachments/assets/b68792f5-86b8-4c5f-9c79-e6306a7d5640" />
 #program7
-
+```java
 import java.util.Scanner;
 
 class Distance {
@@ -327,10 +332,11 @@ class Distance {
         sum.display();
     }
 }
+```
 Output:
 <img width="526" height="325" alt="image" src="https://github.com/user-attachments/assets/321ebb9e-16bf-4266-9667-c057ad88a3e6" />
 #program8
-
+```java
 import java.util.Scanner;
 
 class Time {
@@ -373,5 +379,6 @@ class Time {
         sum.display();
     }
 }
+```
 Output:
 <img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/79c51daf-0305-477f-a32d-3588c765c646" />
