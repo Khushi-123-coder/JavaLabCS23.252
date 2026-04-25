@@ -65,7 +65,9 @@
 
 ##program1(#program1)
 
+```java
 public class Calculator {
+
     // Method for Addition
     public int add(int a, int b) {
         return a + b;
@@ -103,6 +105,7 @@ public class Calculator {
         System.out.println("Division: " + calc.divide(num1, num2));
     }
 }
+```
 Output:
 <img width="508" height="107" alt="image" src="https://github.com/user-attachments/assets/fb34402d-23e5-4895-a2a6-82cef31a4730" />
 #program2
