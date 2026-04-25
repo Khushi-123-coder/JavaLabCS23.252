@@ -1,5 +1,6 @@
 # JavaLabCS23.252
-Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main. (#program1)
+Program1:Create a class with four methods: Addition, Subtraction, Multiplication, and Division. Now, test all four methods in the public static void main.
+[Go to Program 1](#program1)
 Write a Program to test for loop, while loop, do while loop for Problem 1 (#program2)
 Write a Program using if-else to print the grade of input marks.(#program3)
 Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.(#program4)
