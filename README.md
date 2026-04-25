@@ -382,3 +382,268 @@ class Time {
 ```
 Output:
 <img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/79c51daf-0305-477f-a32d-3588c765c646" />
+#program9
+```java
+import java.util.Scanner;
+
+class Time {
+    int hours;
+    int minutes;
+    int seconds;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter hours: ");
+        hours = sc.nextInt();
+        System.out.print("Enter minutes: ");
+        minutes = sc.nextInt();
+        System.out.print("Enter seconds: ");
+        seconds = sc.nextInt();
+    }
+
+    Time add(Time t) {
+        Time sum = new Time();
+
+        sum.seconds = this.seconds + t.seconds;
+        sum.minutes = this.minutes + t.minutes + sum.seconds / 60;
+        sum.seconds = sum.seconds % 60;
+
+        sum.hours = this.hours + t.hours + sum.minutes / 60;
+        sum.minutes = sum.minutes % 60;
+
+        return sum;
+    }
+
+    void display() {
+        System.out.println("Time = " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds");
+    }
+
+    public static void main(String[] args) {
+        Time t1 = new Time();
+        Time t2 = new Time();
+
+        System.out.println("Enter first time:");
+        t1.input();
+
+        System.out.println("Enter second time:");
+        t2.input();
+
+        Time sum = t1.add(t2);
+
+        System.out.print("Sum of times: ");
+        sum.display();
+    }
+}
+```
+Ouptput:
+<img width="513" height="307" alt="image" src="https://github.com/user-attachments/assets/48a05f3c-0436-4e2a-93ba-e9e575ff41cf" />
+#program10
+```java
+import java.util.Scanner;
+
+class OneDArray {
+    int arr[];
+    int n;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System. out.print("Enter size of array: ");
+        n = sc.nextInt();
+
+        arr = new int[n];
+        System.out.println("Enter elements:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+
+    void output1() {
+        System.out.println("Array elements:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    void output2() {
+        System.out.println("Even elements:");
+        for (int i = 0; i < n; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    void reverse() {
+        System.out.println("Reversed array:");
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        OneDArray obj = new OneDArray();
+        obj.input();
+        obj.output1();
+        obj.output2();
+        obj.reverse();
+    }
+}
+```
+Output:
+<img width="429" height="320" alt="image" src="https://github.com/user-attachments/assets/55a06bb5-6526-454e-8a78-ef2325ecfbc8" />
+#program11
+```java
+import java.util.Scanner;
+
+class MatrixOperations {
+    int a[][], b[][];
+    int r, c;
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter rows and columns: ");
+        r = sc.nextInt();
+        c = sc.nextInt();
+
+        a = new int[r][c];
+        b = new int[r][c];
+
+        System.out.println("Enter first matrix:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                a[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("Enter second matrix:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                b[i][j] = sc.nextInt();
+            }
+        }
+    }
+
+    void addition() {
+        System.out.println("Matrix Addition:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print((a[i][j] + b[i][j]) + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    void transpose() {
+        System.out.println("Transpose of first matrix:");
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j < r; j++) {
+                System.out.print(a[j][i] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    void sumRows() {
+        System. out.println("Sum of rows:");
+        for (int i = 0; i < r; i++) {
+            int sum = 0;
+            for (int j = 0; j < c; j++) {
+                sum += a[i][j];
+            }
+            System.out.println("Row " + i + ": " + sum);
+        }
+    }
+
+    void sumColumns() {
+        System. out.println("Sum of columns:");
+        for (int j = 0; j < c; j++) {
+            int sum = 0;
+            for (int i = 0; i < r; i++) {
+                sum += a[i][j];
+            }
+            System.out.println("Column " + j + ": " + sum);
+        }
+    }
+
+    void sumDiagonal() {
+        int sum = 0;
+        for (int i = 0; i < r; i++) {
+            sum += a[i][i]; // main diagonal
+        }
+        System.out.println("Sum of diagonal: " + sum);
+    }
+
+    public static void main(String[] args) {
+        MatrixOperations obj = new MatrixOperations();
+        obj.input();
+        obj.addition();
+        obj.transpose();
+        obj.sumRows();
+        obj.sumColumns();
+        obj.sumDiagonal();
+    }
+}
+```
+Output:
+<img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/07dd6f50-163e-4515-9d6c-6220a910f661" />
+#program12a
+```java
+import java.util.Scanner;
+
+class Factorial {
+    public static void main(String[] args) {
+        int n, fact = 1;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial = " + fact);
+    }
+}
+```
+Output:
+<img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/be5e909f-b19c-4c5d-8137-ca25de87f27e" />
+#program12b
+```java
+import java.util.Scanner;
+
+class Armstrong {
+    public static void main(String[] args) {
+        int n, temp, rem, sum = 0;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        n = sc.nextInt();
+
+        temp = n;
+
+        while (n > 0) {
+            rem = n % 10;
+            sum += rem * rem * rem;
+            n = n / 10;
+        }
+
+        if (temp == sum)
+            System. out.println("Armstrong Number");
+        else
+            System. out.println("Not an Armstrong Number");
+    }
+}
+```
+output:
+<img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/75eb2ae6-aadd-473b-838c-1fae3a37b9b8" />
+
+
+
+
+
