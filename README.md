@@ -109,7 +109,9 @@ public class Calculator {
 Output:
 <img width="508" height="107" alt="image" src="https://github.com/user-attachments/assets/fb34402d-23e5-4895-a2a6-82cef31a4730" />
 <h2 id="program2">Program 2</h2>
+
 ```java
+
 class LoopTest {
     public static void main(String[] args) {
 
@@ -133,11 +135,15 @@ class LoopTest {
         } while (k <= 5);
     }
 }
+
 ```
 Output:
 <img width="375" height="561" alt="image" src="https://github.com/user-attachments/assets/379fc8a3-9c8b-47b4-8f0b-9dbbc283edfa" />
+
 <h2 id="program3">Program 3</h2>
+
 ```java
+
 import java.util.Scanner;
 class GradeCheck {
     public static void main(String[] args) {
@@ -161,11 +167,15 @@ class GradeCheck {
         sc.close();
     }
 }
+
 ```
 Output:
 <img width="317" height="171" alt="image" src="https://github.com/user-attachments/assets/8f74cb97-252a-44c4-85bb-c548d1b7e678" />
+
 <h2 id="program4">Program 4</h2>
+
 ```java
+
 import java.util.Scanner;
 class SquareStars {
 
@@ -233,7 +243,9 @@ class PyramidStars {
 }
 ```
 Output:
-<img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/439ef5b6-c6ec-4dc8-adba-c3816e983bcd" />
+
+
+
 <h2 id="program6">Program 6</h2>
 ```java
 import java.util.Scanner;
