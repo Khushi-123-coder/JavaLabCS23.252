@@ -247,8 +247,7 @@ class PyramidStars {
 
 ```
 Output:
-
-
+<img width="618" height="192" alt="image" src="https://github.com/user-attachments/assets/535e57d9-700a-4b83-b3a7-f32996fc558f" />
 
 <h2 id="program6">Program 6</h2>
 
