@@ -207,8 +207,11 @@ class SquareStars {
 ```
 Output:
 <img width="312" height="383" alt="image" src="https://github.com/user-attachments/assets/2ee8716b-d93b-470a-a093-e94ae60e6249" />
+
 <h2 id="program5">Program 5</h2>
+
 ```java
+
 import java.util.Scanner;
 class PyramidStars {
 
@@ -241,13 +244,16 @@ class PyramidStars {
         obj.printPyramid();
     }
 }
+
 ```
 Output:
 
 
 
 <h2 id="program6">Program 6</h2>
+
 ```java
+
 import java.util.Scanner;
 class Distance {
     int meters;
@@ -289,11 +295,15 @@ class Distance {
         sum.display();
     }
 }
+
 ```
 Output:
 <img width="519" height="253" alt="image" src="https://github.com/user-attachments/assets/b68792f5-86b8-4c5f-9c79-e6306a7d5640" />
+
 <h2 id="program7">Program 7</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Distance {
@@ -344,10 +354,13 @@ class Distance {
         sum.display();
     }
 }
+
 ```
 Output:
 <img width="526" height="325" alt="image" src="https://github.com/user-attachments/assets/321ebb9e-16bf-4266-9667-c057ad88a3e6" />
+
 <h2 id="program8">Program 8</h2>
+
 ```java
 import java.util.Scanner;
 
@@ -391,11 +404,15 @@ class Time {
         sum.display();
     }
 }
+
 ```
 Output:
 <img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/79c51daf-0305-477f-a32d-3588c765c646" />
+
 <h2 id="program9">Program 9</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Time {
@@ -446,10 +463,13 @@ class Time {
         sum.display();
     }
 }
+
 ```
 Ouptput:
 <img width="513" height="307" alt="image" src="https://github.com/user-attachments/assets/48a05f3c-0436-4e2a-93ba-e9e575ff41cf" />
+
 <h2 id="program10">Program 10</h2>
+
 ```java
 import java.util.Scanner;
 
@@ -504,11 +524,15 @@ class OneDArray {
         obj.reverse();
     }
 }
+
 ```
 Output:
 <img width="429" height="320" alt="image" src="https://github.com/user-attachments/assets/55a06bb5-6526-454e-8a78-ef2325ecfbc8" />
+
 <h2 id="program11">Program 11</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class MatrixOperations {
@@ -600,9 +624,11 @@ class MatrixOperations {
         obj.sumDiagonal();
     }
 }
+
 ```
 Output:
 <img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/07dd6f50-163e-4515-9d6c-6220a910f661" />
+
 <h2 id="program12a">Program 12a</h2>
 ```java
 import java.util.Scanner;
@@ -622,11 +648,14 @@ class Factorial {
         System.out.println("Factorial = " + fact);
     }
 }
+
 ```
 Output:
-<img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/be5e909f-b19c-4c5d-8137-ca25de87f27e" />
+
 <h2 id="program12b">Program 12b</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Armstrong {
@@ -651,11 +680,15 @@ class Armstrong {
             System. out.println("Not an Armstrong Number");
     }
 }
+
 ```
 output:
 <img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/75eb2ae6-aadd-473b-838c-1fae3a37b9b8" />
+
 <h2 id="program12c">Program 12c</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Palindrome {
@@ -680,11 +713,15 @@ class Palindrome {
             System. out.println("Not a Palindrome Number");
     }
 }
+
 ```
 Output:
 <img width="463" height="141" alt="image" src="https://github.com/user-attachments/assets/b540204a-7ac0-4c98-ba2f-ee5a240f0b3b" />
+
 <h2 id="program12d">Program 12d</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Fibonacci {
@@ -706,10 +743,13 @@ class Fibonacci {
         }
     }
 }
+
 ```
 Output:
 <img width="924" height="157" alt="image" src="https://github.com/user-attachments/assets/69b9976c-c027-41d7-9a3d-a860c4348571" />
+
 <h2 id="program12e">Program 12e</h2>
+
 ```java
 class Pattern {
     public static void main(String[] args) {
@@ -722,11 +762,15 @@ class Pattern {
         }
     }
 }
+
 ```
 Output:
 <img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/ad66edcb-a949-4e74-bcaa-5e50e4cdaa57" />
+
 <h2 id="program13">Program 13</h2>
+
 ```java
+
 class PrintOneToHundred {
     void display() {
         System. out.println("Printing 1 to 100:");
@@ -768,11 +812,15 @@ public class Main {
         obj3.display();
     }
 }
+
 ```
 Output:
 <img width="919" height="564" alt="image" src="https://github.com/user-attachments/assets/6bc7afe9-1658-4a4c-a995-7b782277f712" />
+
 <h2 id="program14">Program 14</h2>
+
 ```java
+
 class ThreadOne extends Thread {
     public void run() {
         System. out.println("Thread 1: Printing 1 to 100");
@@ -815,11 +863,15 @@ public class Main {
         t3.start();
     }
 }
+
 ```
 Output:
 <img width="908" height="545" alt="image" src="https://github.com/user-attachments/assets/218519a8-77c7-44b4-9879-5d0cfc793bbc" />
+
 <h2 id="program15">Program 15</h2>
+
 ```java
+
 class ThreadOne extends Thread {
     public void run() {
         System. out.println("Thread 1: Printing 1 to 100");
@@ -872,11 +924,15 @@ public class Main {
         }
     }
 }
+
 ```
 Output:
 <img width="928" height="582" alt="image" src="https://github.com/user-attachments/assets/d3841595-50eb-465b-b5f2-e0fa932f8862" />
+
 <h2 id="program16">Program 16</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -932,11 +988,15 @@ public class Main extends JFrame implements ActionListener {
         new Main();
     }
 }
+
 ```
 Output:
 <img width="550" height="431" alt="image" src="https://github.com/user-attachments/assets/9024b5b7-99a7-457b-b4bf-7af5bb022bb2" />
+
 <h2 id="program17">Program 17</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -1030,11 +1090,15 @@ public class Main extends JFrame implements ActionListener {
         new Main();
     }
 }
+
 ```
 Output:
 <img width="494" height="469" alt="image" src="https://github.com/user-attachments/assets/e1101c41-ebed-4046-b014-679691f25386" />
+
 <h2 id="program18">Program 18</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -1129,11 +1193,15 @@ public class Main extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(() -> new Main());
     }
 }
+
 ```
 Output:
 <img width="514" height="394" alt="image" src="https://github.com/user-attachments/assets/79e89323-7f4a-4437-8ef9-21293564710c" />
+
 <h2 id="program19">Program 19</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -1234,11 +1302,15 @@ public class Main extends JFrame implements ActionListener {
         new Main();
     }
 }
+
 ```
 Output:
 <img width="859" height="617" alt="image" src="https://github.com/user-attachments/assets/8487dd7e-050a-402a-b99c-593f4a43bc65" />
+
 <h2 id="program20">Program 20</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -1368,11 +1440,15 @@ public class Main extends JFrame implements ActionListener {
         new Main();
     }
 }
+
 ```
 Output:
 <img width="988" height="745" alt="image" src="https://github.com/user-attachments/assets/94929b25-f34e-481c-90e6-28386c25ba8e" />
+
 <h2 id="program21">Program 21</h2>
+
 ```java
+
 package mypack;
 
 public class Add {
@@ -1428,11 +1504,15 @@ public class Main {
         System.out.println("Square: " + sq.square(5));
     }
 }
+
 ```
 Output:
 <img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9683e05d-dfbf-443f-913f-c7bd4c25569e" />
+
 <h2 id="program22">Program 22</h2>
+
 ```java
+
 package mypack;
 
 public class Add {
@@ -1462,11 +1542,15 @@ public class Main {
         System.out.println("Square: " + s.square(5));
     }
 }
+
 ```
 Output:
 <img width="1918" height="983" alt="image" src="https://github.com/user-attachments/assets/ce646bae-6757-494e-83dd-9fc96846dcc2" />
+
 <h2 id="program23">Program 23</h2>
+
 ```java
+
 public class Main {
     public static void main(String[] args) {
 
@@ -1504,11 +1588,15 @@ public class Main {
         System.out.println("Program continues after handling exceptions.");
     }
 }
+
 ```
 Output:
 <img width="624" height="459" alt="image" src="https://github.com/user-attachments/assets/af796bc1-0ec2-4145-aa0f-0a62667cd01b" />
+
 <h2 id="program24">Program 24</h2>
+
 ```java
+
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
         super(message);
@@ -1538,11 +1626,15 @@ public class Main {
         System.out.println("Program continues...");
     }
 }
+
 ```
 Output:
 <img width="668" height="279" alt="image" src="https://github.com/user-attachments/assets/0b07c886-4808-402b-8d37-3ab4097b34eb" />
+
 <h2 id="program25">Program 25</h2>
+
 ```java
+
 //Character-by-Character
 
 import java.io.*;
@@ -1594,11 +1686,15 @@ public class ByteFileCopy {
         }
     }
 }
+
 ```
 Output:
 <img width="1673" height="1002" alt="image" src="https://github.com/user-attachments/assets/687ae26b-f07c-4f57-866a-74bd80266d6c" />
+
 <h2 id="program26">Program 26</h2>
+
 ```java
+
 interface Printer {
     void print();
 }
@@ -1629,11 +1725,15 @@ public class Main {
         c.stop();
     }
 }
+
 ```
 Output:
 <img width="674" height="239" alt="image" src="https://github.com/user-attachments/assets/e8305388-f3b2-4001-9fc4-76b21e43a829" />
+
 <h2 id="program27">Program 27</h2>
+
 ```java
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
@@ -1827,6 +1927,7 @@ public class Main extends JFrame implements ActionListener {
         new Main();
     }
 }
+
 ```
 Output:
 <img width="535" height="662" alt="image" src="https://github.com/user-attachments/assets/6c1dc943-6f4b-4f6e-986c-f3949d9ff102" />
