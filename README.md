@@ -3,7 +3,7 @@
 
 [Program 1: Calculator Methods](#program1)  
 
-[Program 2: Loops Test](#program2)  
+[Program 2: Loops Test](#program2) 
 
 [Program 3: Grade using If-Else](#program3)
 
