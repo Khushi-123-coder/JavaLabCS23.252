@@ -652,6 +652,7 @@ class Factorial {
 
 ```
 Output:
+<img width="648" height="185" alt="image" src="https://github.com/user-attachments/assets/3d6e3b34-27e6-4e4e-9c33-cc315acc207d" />
 
 <h2 id="program12b">Program 12b</h2>
 
