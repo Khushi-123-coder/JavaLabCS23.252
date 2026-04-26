@@ -630,7 +630,9 @@ Output:
 <img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/07dd6f50-163e-4515-9d6c-6220a910f661" />
 
 <h2 id="program12a">Program 12a</h2>
+
 ```java
+
 import java.util.Scanner;
 
 class Factorial {
