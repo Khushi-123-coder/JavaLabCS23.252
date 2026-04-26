@@ -63,7 +63,7 @@
 
 [Program 27: Registration Form (JDBC)](#program27)
 
-##program1(#program1)
+##program1
 
 ```java
 public class Calculator {
